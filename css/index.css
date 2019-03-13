@@ -65,7 +65,7 @@ a.effect-shine:hover {
     text-align: center;
   }
 }
-.aboutUsContainer {
+#aboutUsContainer {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -75,13 +75,13 @@ a.effect-shine:hover {
   padding-left: 120px;
   margin-top: 20px;
 }
-.borderBox {
-  width: 50%;
-  height: 65%;
-  font-size: 1.7em;
+.borderLandingBox {
+  width: 70%;
+  height: 70%;
+  font-size: 1.5em;
   align-self: center;
 }
-.aboutUsImg {
+#aboutUsImg {
   width: 50%;
   height: 50%;
   background-image: url('/images/convo.png');
@@ -89,14 +89,14 @@ a.effect-shine:hover {
   background-repeat: no-repeat;
   align-self: center;
 }
-.learningContainer {
+#learningContainer {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
   height: 400px;
   border: 10px inset #597bff;
   border-radius: 200px;
-  padding-left: 120px;
+  padding-left: 80px;
   margin-top: 20px;
 }
 .learningImg {
@@ -108,32 +108,31 @@ a.effect-shine:hover {
   align-self: center;
 }
 @media (max-width: 992px) {
-  .aboutUsContainer {
+  #aboutUsContainer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 500px;
+    height: 400px;
     border: 10px outset #597bff;
     border-radius: 200px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 80px;
     margin-top: 20px;
   }
-  .borderBox {
+  .borderLandingBox {
     width: 50%;
-    height: 50%;
-    font-size: 1.2em;
+    height: 60%;
+    font-size: 1.3em;
     align-self: center;
   }
-  .aboutUsImg {
-    width: 50%;
+  #aboutUsImg {
+    width: 45%;
     height: 50%;
     background-image: url('/images/convo.png');
     background-size: contain;
     background-repeat: no-repeat;
     align-self: center;
   }
-  .learningContainer {
+  #learningContainer {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
@@ -155,13 +154,17 @@ a.effect-shine:hover {
 }
 footer {
   width: 100%;
-  height: 150px;
+  height: 115px;
   border: 5px solid black;
   text-align: center;
   margin-top: 25px;
 }
-.footer-container {
-  text-align: center;
+#breadcrumb {
+  background-color: rgba(250, 204, 113, 0);
+  font-size: 1.95em;
+}
+#breadcrumb a {
+  color: gray;
 }
 #carousel {
   border: 10px solid rgba(0, 123, 255, 0.5);
@@ -281,6 +284,7 @@ footer {
     padding-left: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 1.5em;
   }
   .borderBox {
     width: 100%;
@@ -306,9 +310,11 @@ footer {
     padding-left: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 1.5em;
+    line-height: 30px;
   }
   .hireImg {
-    width: 50%;
+    width: 100%;
     height: 50%;
     background-image: url("/images/hire.png");
     background-size: contain;
@@ -320,25 +326,25 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: row;
-    margin-bottom: -200px;
+    margin-bottom: -300px;
   }
   .CardsContainerBottom {
     height: 300px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
   }
   .cardBoxTop {
-    height: 50%;
+    height: 25%;
     width: 25%;
-    margin: 5px 0 0 75px;
+    margin: 5px 0 0 40px;
     font-size: 1.5em;
   }
   .cardBoxBottom {
-    height: 100%;
+    height: 50%;
     width: 25%;
-    margin: 5px 0 0 175px;
+    margin: 5px 0 0 120px;
     font-size: 1.5em;
   }
   .cardImg1 {
