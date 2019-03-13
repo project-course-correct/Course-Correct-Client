@@ -1,5 +1,6 @@
 # Course Correct App Landing Page
-[View Live](https://course-correct-landing.netlify.com/)
+## [View Live](https://course-correct-landing.netlify.com/)
+
 This app allows prison management to broadcast the skill of inmates to make better use of their time using their skills to make a wage and becoming more employable after incarceration. 
 
 
