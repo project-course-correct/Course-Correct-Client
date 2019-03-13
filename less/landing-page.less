@@ -1,3 +1,101 @@
-#marketing {
-  margin: auto;
+// aboutUs content styles
+.aboutUsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 400px;
+  border: 10px outset #597bff;
+  border-radius: 200px;
+  padding-left: 120px;
+  margin-top: 20px;
+}
+
+.borderBox {
+  width: 50%;
+  height: 50%;
+  font-size: 1.2em;
+  align-self: center;
+}
+
+.aboutUsImg {
+  width: 50%;
+  height: 50%;
+  background-image: url('/images/convo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: center;
+}
+
+.learningContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 400px;
+  border: 10px inset #597bff;
+  border-radius: 200px;
+  padding-left: 120px;
+  margin-top: 20px;
+}
+
+.learningImg {
+  width: 50%;
+  height: 50%;
+  background-image: url('/images/learning.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: center;
+}
+
+
+@media (max-width: 992px) {
+
+  .aboutUsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    border: 10px outset #597bff;
+    border-radius: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+  }
+
+  .borderBox {
+    width: 50%;
+    height: 50%;
+    font-size: 1.2em;
+    align-self: center;
+  }
+
+  .aboutUsImg {
+    width: 50%;
+    height: 50%;
+    background-image: url('/images/convo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+  }
+
+  .learningContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 500px;
+    border: 10px outset #597bff;
+    border-radius: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+  }
+
+  .learningImg {
+    width: 50%;
+    height: 50%;
+    background-image: url('/images/learning.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+  }
+
 }

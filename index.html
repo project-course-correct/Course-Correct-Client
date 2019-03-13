@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Prisoner Skills</title>
+  <title>Project Course Correct</title>
   <link rel="stylesheet" href="/css/index.css">
   <!-- Bootstrap Css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,11 +13,11 @@
 <body>
   <!-- Container div-->
 
-  <div id="header">
+  <div id="nav">
     <!-- Start of header div -->
     <div id="navbar" class="navbar navbar-expand-lg navbar-light bg-dark">
       <!-- Nav logo -->
-      <a href="navbar-brand" href="#">Prisoner Skills</a>
+      <a href="navbar-brand" href="#">Project Course Correct</a>
       <!-- Collapse bttn -->
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" type="button" name="button">
         <span class="navbar-toggler-icon "></span>
@@ -26,24 +26,30 @@
       <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav ">
           <li class="nav-item">
-            <a href="#" class="nav-link "> Home </a>
+            <a href="#" class="nav-link effect-shine "> Home </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> About Us </a>
+            <a href="about.html" class="nav-link effect-shine">
+              About Us
+            </a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link"> Login </a>
+          <li class="nav-item" id="modal">
+            <a href="#" class="nav-link effect-shine">
+              Login
+            </a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link"> Sign Up </a>
+          <li class="nav-item" id="modal">
+            <a href="#" class="nav-link effect-shine">
+              Sign Up
+            </a>
           </li>
         </ul>
-      </div>
-
-    </div>
+      </div><!-- End of Collapse navbar-->
+    </div><!-- End of Navbar div-->
   </div><!-- End of header div -->
-  <div class="container-fluid">
-    <section id="marketing">
+  <div class="container">
+    <!-- Start of carousel -->
+    <section id="carousel">
       <!-- start of carousel div -->
       <div id="carouselFadeExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
@@ -52,6 +58,9 @@
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="https://images.pexels.com/photos/143580/pexels-photo-143580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true" style="width: 900px; height: 450px;">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://world.wng.org/sites/default/files/TheStew12-20.1.jpg" data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true" style="width: 900px; height: 450px;">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselFadeExampleIndicators" role="button" data-slide="prev">
@@ -64,13 +73,47 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-
       <!-- end of carousel div -->
     </section>
-  </div>
+
+    <!-- What we do to help  -->
+      <div class="aboutUsContainer">
+        <div class="borderBox">
+          <h2>What we do to help!</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          </p>
+          <button type="button" name="button">
+            Learn more!
+          </button>
+        </div>
+        <!-- Inage div -->
+        <div class="aboutUsImg">
+        </div>
+      </div>
+    <!-- End of What we do to help -->
+
+    <!-- What we do to help  -->
+      <div class="learningContainer">
+        <div class="borderBox">
+          <h2>Learning Experience!</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          </p>
+          <button type="button" name="button">
+            Learn more!
+          </button>
+        </div>
+        <!-- Inage div -->
+        <div class="learningImg" id="learning">
+        </div>
+      </div>
+    <!-- End of What we do to help -->
+
+  </div><!-- Closing Container Div Tag  -->
   <!-- Footer  -->
-  <footer class="">
-    <div class="">
+  <footer class="bg-dark">
+    <div class="footer-container">
       <ol class="breadcrumb">
         <li class="breadcrumb-item active"> Prisoner Skills </li>
         <li class="breadcrumb-item "> Home </li>
@@ -80,7 +123,6 @@
       </ol>
     </div>
   </footer>
-  <!-- Closing Container Div Tag  -->
   <!-- Optional Javascript -->
   <!-- Bootstrap, jquery -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
